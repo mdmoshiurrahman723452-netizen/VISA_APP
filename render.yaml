@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: visa-application-form-generator
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: DATA_DIR
+        value: /var/data
+      - key: VISA_APP_USERNAME
+        sync: false
+      - key: VISA_APP_PASSWORD
+        sync: false
+    disk:
+      name: visa-generator-data
+      mountPath: /var/data
+      sizeGB: 1

@@ -1,0 +1,86 @@
+[
+  {
+    "key": "applicant_name",
+    "placeholder": "{{APPLICANT_NAME}}",
+    "label": "পূর্ণ নাম",
+    "type": "text",
+    "group": "ব্যক্তিগত তথ্য"
+  },
+  {
+    "key": "father_name",
+    "placeholder": "{{FATHER_NAME}}",
+    "label": "পিতার নাম",
+    "type": "text",
+    "group": "ব্যক্তিগত তথ্য"
+  },
+  {
+    "key": "mother_name",
+    "placeholder": "{{MOTHER_NAME}}",
+    "label": "মায়ের নাম",
+    "type": "text",
+    "group": "ব্যক্তিগত তথ্য"
+  },
+  {
+    "key": "date_of_birth",
+    "placeholder": "{{DATE_OF_BIRTH}}",
+    "label": "জন্মতারিখ",
+    "type": "date_text",
+    "group": "ব্যক্তিগত তথ্য"
+  },
+  {
+    "key": "place_of_birth",
+    "placeholder": "{{PLACE_OF_BIRTH}}",
+    "label": "জন্মস্থান",
+    "type": "text",
+    "group": "ব্যক্তিগত তথ্য"
+  },
+  {
+    "key": "marital_status",
+    "placeholder": "{{MARITAL_STATUS}}",
+    "label": "বৈবাহিক অবস্থা",
+    "type": "text",
+    "group": "ব্যক্তিগত তথ্য"
+  },
+  {
+    "key": "religion",
+    "placeholder": "{{RELIGION}}",
+    "label": "ধর্ম",
+    "type": "text",
+    "group": "ব্যক্তিগত তথ্য"
+  },
+  {
+    "key": "profession_ar",
+    "placeholder": "{{PROFESSION_AR}}",
+    "label": "পেশা (আরবি)",
+    "type": "text",
+    "group": "পেশা"
+  },
+  {
+    "key": "profession_en",
+    "placeholder": "{{PROFESSION_EN}}",
+    "label": "পেশা (ইংরেজি)",
+    "type": "text",
+    "group": "পেশা"
+  },
+  {
+    "key": "passport_issue_date",
+    "placeholder": "{{PASSPORT_ISSUE_DATE}}",
+    "label": "পাসপোর্ট ইস্যুর তারিখ",
+    "type": "date_text",
+    "group": "পাসপোর্ট"
+  },
+  {
+    "key": "passport_expiry_date",
+    "placeholder": "{{PASSPORT_EXPIRY_DATE}}",
+    "label": "পাসপোর্টের মেয়াদ শেষ",
+    "type": "date_text",
+    "group": "পাসপোর্ট"
+  },
+  {
+    "key": "passport_number",
+    "placeholder": "{{PASSPORT_NUMBER}}",
+    "label": "পাসপোর্ট নম্বর",
+    "type": "text",
+    "group": "পাসপোর্ট"
+  }
+]
